@@ -1,0 +1,37 @@
+version: 2
+models:
+  - name: stg_companies
+    description: "One row per company on the register, cleaned and typed."
+    columns:
+      - name: company_number
+        description: "Companies House company number, 8 characters."
+        data_tests:
+          - unique
+          - not_null
+      - name: company_name
+        data_tests:
+          - not_null
+      - name: company_status
+        data_tests:
+          - not_null
+          - accepted_values:
+              # Regenerate this list with: python list_statuses.py
+              arguments:
+                values: ['Active', 'Active - Proposal to Strike off', 'Liquidation', 'In Administration', 'Live but Receiver Manager on at least one charge', 'Voluntary Arrangement', 'In Administration/Administrative Receiver', 'RECEIVERSHIP', 'ADMINISTRATION ORDER', 'ADMINISTRATIVE RECEIVER', 'In Administration/Receiver Manager', 'RECEIVER MANAGER / ADMINISTRATIVE RECEIVER', 'VOLUNTARY ARRANGEMENT / RECEIVER MANAGER', 'VOLUNTARY ARRANGEMENT / ADMINISTRATIVE RECEIVER']
+              config:
+                severity: warn
+      - name: incorporation_date
+        data_tests:
+          - not_null:
+              config:
+                severity: warn
+
+  - name: int_company_sic_codes
+    columns:
+      - name: sic_position
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: [1, 2, 3, 4]
+                quote: false

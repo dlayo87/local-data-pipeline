@@ -2,13 +2,15 @@
 import duckdb
 
 con = duckdb.connect("data/warehouse.duckdb", read_only=True)
+# The dbt staging views read parquet by a path relative to transform/, so resolve paths from there.
+con.execute("set file_search_path = 'transform'")
 tables = ["stg_companies", "int_company_sic_codes", "fct_incorporations_monthly",
           "dim_sic_codes", "mart_sector_summary", "mart_area_summary"]
 for t in tables:
     try:
-        n = con.sql(f"select count(*) from {t}").fetchone()[0]
+        n = con.sql(f"select count(*) from {t}").fetchall()[0][0]
         print(f"{t:30} {n:>12,} rows")
-    except Exception:
+    except duckdb.CatalogException:
         print(f"{t:30} not built yet")
 
 print("\nTop 5 postcode areas:")

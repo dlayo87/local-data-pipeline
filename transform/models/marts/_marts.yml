@@ -1,0 +1,10 @@
+version: 2
+models:
+  - name: dim_sic_codes
+    columns:
+      - name: sic_code
+        data_tests: [unique, not_null]
+  - name: mart_area_summary
+    columns:
+      - name: postcode_area
+        data_tests: [unique, not_null]
