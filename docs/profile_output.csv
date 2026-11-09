@@ -1,0 +1,56 @@
+column_name,column_type,min,max,approx_unique,avg,std,q25,q50,q75,count,null_percentage
+companyname,VARCHAR,! LTD,€ RECYCLING LIMITED,5976927,,,,,,5704711,0.0
+companynumber,VARCHAR,00000086,ZC000206,5594860,,,,,,5704711,0.0
+regaddress_careof,VARCHAR,(SWIFT),ZUBALDY & CO,14295,,,,,,5704711,99.57
+regaddress_pobox,VARCHAR,*DEFAULT*,`,1747,,,,,,5704711,99.44
+regaddress_addressline1,VARCHAR,!8 QUAY STREET,‘THE STUDIO’ AT UNIT 2 LOW FARM,1996939,,,,,,5704711,1.11
+regaddress_addressline2,VARCHAR,          ACCOUNTING SERVICES,ÕOLD HALL STREET,327049,,,,,,5704711,40.56
+regaddress_posttown,VARCHAR, 21 OLD CHANNEL ROAD,ŞIŞLI,45049,,,,,,5704711,1.66
+regaddress_county,VARCHAR, .,ØSTJYLLAND 8200,14499,,,,,,5704711,71.28
+regaddress_country,VARCHAR,AFGHANISTAN,ZIMBABWE,209,,,,,,5704711,15.72
+regaddress_postcode,VARCHAR, IP28 7DE,ZUG 6302,1022490,,,,,,5704711,1.6
+companycategory,VARCHAR,Charitable Incorporated Organisation,United Kingdom Societas,25,,,,,,5704711,0.0
+companystatus,VARCHAR,ADMINISTRATION ORDER,Voluntary Arrangement,14,,,,,,5704711,0.0
+countryoforigin,VARCHAR, ,ZIMBABWE,236,,,,,,5704711,0.0
+dissolutiondate,VARCHAR,,,0,,,,,,5704711,100.0
+incorporationdate,VARCHAR,01/01/1327,31/12/2025,31103,,,,,,5704711,0.0
+accounts_accountrefday,VARCHAR,1,9,31,,,,,,5704711,2.73
+accounts_accountrefmonth,VARCHAR,1,9,12,,,,,,5704711,2.73
+accounts_nextduedate,VARCHAR,01/01/1986,31/12/2027,7523,,,,,,5704711,3.04
+accounts_lastmadeupdate,VARCHAR,01/01/1975,31/12/9998,3334,,,,,,5704711,25.67
+accounts_accountcategory,VARCHAR,ACCOUNTS TYPE NOT AVAILABLE,UNAUDITED ABRIDGED,16,,,,,,5704711,0.0
+returns_nextduedate,VARCHAR,01/01/1991,31/12/2026,11900,,,,,,5704711,3.11
+returns_lastmadeupdate,VARCHAR,01/01/1986,31/12/2049,9129,,,,,,5704711,72.93
+mortgages_nummortcharges,VARCHAR,0,99,475,,,,,,5704711,0.0
+mortgages_nummortoutstanding,VARCHAR,0,99,373,,,,,,5704711,0.0
+mortgages_nummortpartsatisfied,VARCHAR,0,7,12,,,,,,5704711,0.0
+mortgages_nummortsatisfied,VARCHAR,0,99,363,,,,,,5704711,0.0
+siccode_sictext_1,VARCHAR,0111 - Grow cereals & other crops,None Supplied,1136,,,,,,5704711,0.0
+siccode_sictext_2,VARCHAR,01120 - Growing of rice,99999 - Dormant Company,957,,,,,,5704711,79.36
+siccode_sictext_3,VARCHAR,"01130 - Growing of vegetables and melons, roots and tubers",99999 - Dormant Company,830,,,,,,5704711,90.97
+siccode_sictext_4,VARCHAR,01140 - Growing of sugar cane,99999 - Dormant Company,693,,,,,,5704711,95.86
+limitedpartnerships_numgenpartners,VARCHAR,0,9,28,,,,,,5704711,0.0
+limitedpartnerships_numlimpartners,VARCHAR,-1,99,204,,,,,,5704711,0.0
+uri,VARCHAR,http://business.data.gov.uk/id/company/00000086,http://business.data.gov.uk/id/company/ZC000206,5737009,,,,,,5704711,0.0
+previousname_1_condate,VARCHAR,01/02/2007,31/12/2025,5221,,,,,,5704711,90.67
+previousname_1_companyname,VARCHAR, D BULMER ENTERPRISES LIMITED,€UROTECH LTD,511602,,,,,,5704711,90.67
+previousname_2_condate,VARCHAR,01/02/2007,31/12/2025,5149,,,,,,5704711,98.42
+previousname_2_companyname,VARCHAR,"""D&C TRANSPORT AND LOGISTIC LIMITED",“UNIVERSITA NICCOLO CUSANO LONDON LIMITED,91108,,,,,,5704711,98.42
+previousname_3_condate,VARCHAR,01/02/2007,31/12/2024,4856,,,,,,5704711,99.67
+previousname_3_companyname,VARCHAR,"""BRYANSTON SCHOOL"",INCORPORATED",[AI]2 SOLUTIONS LIMITED,19083,,,,,,5704711,99.67
+previousname_4_condate,VARCHAR,01/02/2007,31/12/2024,2953,,,,,,5704711,99.92
+previousname_4_companyname,VARCHAR,'NANA'S CREATIVE ART & DESIGNS LIMITED,ZYAS GROUP LIMITED,4835,,,,,,5704711,99.92
+previousname_5_condate,VARCHAR,01/02/2007,31/12/2025,1237,,,,,,5704711,99.98
+previousname_5_companyname,VARCHAR,  FOCUS HEATING LIMITED,ÇA ALORS FASHION LTD,1346,,,,,,5704711,99.98
+previousname_6_condate,VARCHAR,01/02/2011,31/08/2021,476,,,,,,5704711,99.99
+previousname_6_companyname,VARCHAR,1 CALL DRIVING SOLUTIONS LIMITED,ZUCCONI & CO. HOLDING LIMITED,484,,,,,,5704711,99.99
+previousname_7_condate,VARCHAR,01/02/2024,31/10/2013,199,,,,,,5704711,100.0
+previousname_7_companyname,VARCHAR,10X GROUP LTD,ZUCCONI INVESTMENTS LIMITED,196,,,,,,5704711,100.0
+previousname_8_condate,VARCHAR,01/05/2008,31/07/2018,109,,,,,,5704711,100.0
+previousname_8_companyname,VARCHAR,1KO KNOCK-OUT SUBMISSION CAGE FIGHTING LIMITED,WOW HOME STORE LTD,110,,,,,,5704711,100.0
+previousname_9_condate,VARCHAR,01/05/2013,31/12/2014,59,,,,,,5704711,100.0
+previousname_9_companyname,VARCHAR,ALSBURY MORRIS LTD,WORD OF MOUTH WORLD-WIDE RECRUITMENT LIMITED,63,,,,,,5704711,100.0
+previousname_10_condate,VARCHAR,01/06/2026,31/10/2006,40,,,,,,5704711,100.0
+previousname_10_companyname,VARCHAR,10X GROUP LTD,WIREFOX OCEAN LLP,39,,,,,,5704711,100.0
+confstmtnextduedate,VARCHAR,01/01/2017,31/12/2026,3913,,,,,,5704711,1.37
+confstmtlastmadeupdate,VARCHAR,01/01/2017,31/12/2025,3610,,,,,,5704711,18.4

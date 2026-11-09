@@ -1,0 +1,16 @@
+name: companies_pipeline
+version: "1.0.0"
+config-version: 2
+profile: companies_pipeline
+
+model-paths: ["models"]
+test-paths: ["tests"]
+
+models:
+  companies_pipeline:
+    staging:
+      +materialized: view
+    intermediate:
+      +materialized: view
+    marts:
+      +materialized: table
