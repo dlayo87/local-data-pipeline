@@ -1,0 +1,9 @@
+.venv/
+data/
+*.duckdb
+*.duckdb.wal
+transform/target/
+transform/logs/
+__pycache__/
+pipeline_log.txt
+.env
