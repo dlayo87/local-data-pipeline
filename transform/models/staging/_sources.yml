@@ -4,5 +4,4 @@ sources:
     tables:
       - name: companies
         meta:
-          external_location: "read_parquet('../data/parquet/companies.parquet')"
-        
+          external_location: "read_parquet('../data/landing/*.parquet')"

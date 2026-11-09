@@ -1,4 +1,7 @@
--- One row per company: cleaned text, real dates, real numbers.
+-- One row per company. Incremental: each run only adds companies newer than
+-- the latest incorporation date already in the table.
+{{ config(materialized='incremental', unique_key='company_number') }}
+
 with source as (
     select * from {{ source('raw', 'companies') }}
 ),
@@ -24,6 +27,10 @@ cleaned as (
         nullif(trim(siccode_sictext_4), '')                    as sic_text_4
     from source
     where nullif(trim(companynumber), '') is not null
+    {% if is_incremental() %}
+      and try_strptime(incorporationdate, '%d/%m/%Y')::date
+          > (select max(incorporation_date) from {{ this }})
+    {% endif %}
 )
 
 select * from cleaned
